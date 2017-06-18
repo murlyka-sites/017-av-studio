@@ -1,0 +1,46 @@
+doctype html
+html(lang="ru")
+	head
+		include jade/head.jade
+	body
+		include jade/main.jade
+		include jade/numbers.jade
+		include jade/form-1.jade
+		include jade/capabilities.jade
+		include jade/form-2.jade
+		include jade/progress.jade
+		include jade/work.jade
+		include jade/form-3.jade
+		include jade/discounts.jade
+		include jade/reviews.jade
+		include jade/contacts.jade
+		include jade/map.jade
+		include jade/foo.jade
+		.hidden
+			form.popup#call.clearfix
+				h4.popup__title
+					| Заказать звонок
+				input.input.input--name.popup__input(type="text", placeholder="Имя", required)
+				input.input.input--phone.popup__input(type="text", placeholder="Телефон", required)
+				button.btn.popup__btn(type="submit")
+					| Отправить
+			form.popup#rec.clearfix
+				h4.popup__title
+					| Заказать звонок
+				input.input.input--address.popup__input.js-input-rec()
+				input.input.input--name.popup__input(type="text", placeholder="Имя", required)
+				input.input.input--phone.popup__input(type="text", placeholder="Телефон", required)
+				button.btn.popup__btn(type="submit")
+					| Отправить
+			.popup#success.clearfix
+				h4.popup__title
+					| Форма успешно отправлена
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js")
+		script(src="http://malsup.github.com/jquery.form.js")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js")
+		script(src="js/jquery.scrollUp.min.js")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/ismobilejs/0.4.0/isMobile.min.js")
+		script(src="js/main.js")

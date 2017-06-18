@@ -1,0 +1,8 @@
+/node_modules/
+/bower/
+/html/
+prepros.cfg
+/**/desktop.ini
+desktop.ini
+bower_components/
+prepros-6.config

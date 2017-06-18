@@ -1,0 +1,20 @@
+{
+  "name": "010-av",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Millok Murlyka"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
