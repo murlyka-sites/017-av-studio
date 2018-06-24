@@ -44,12 +44,12 @@ $(document).ready(function() {
 
 	$.scrollUp("white", "#be9020");
 
-	if(!isMobile.any) {
-		new WOW().init();
-	}
+	// if(!isMobile.any) {
+	// 	new WOW().init();
+	// }
 
 });
 
 $(window).on("load", function() {
-	
+
 });
